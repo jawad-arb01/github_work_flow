@@ -1,0 +1,10 @@
+name : github workflow dispatcher
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Deploying to production server"
