@@ -2,10 +2,10 @@ name : github workflow dispatcher
 
 on:
   workflow_dispatch:
-    push:
-        branches:
-        - main
-        - develop
+  push:
+    branches:
+      - main
+      - develop
 jobs:
   deploy:
     runs-on: ubuntu-latest
